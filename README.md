@@ -12,8 +12,8 @@ When choosing a binary classification model for our dataset, careful considerati
 *Features and Trget*
 The dataset contains the following features:
 
-Year = year when the election took place. It is imported as the index of the DataFrame.
-male_vote: percentage of male voters
+- Year = year when the election took place. It is imported as the index of the DataFrame.
+- male_vote: percentage of male voters
 female_vote: percentage of female voters
 white_vote: percentage of white Caucasian voters
 black_vote: percentage of Afro-American voters
