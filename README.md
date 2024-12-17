@@ -34,7 +34,10 @@ election_winner: party winning the election (the target value)
 
 **Findings**
 
-<img width="692" alt="image" src="https://github.com/user-attachments/assets/5a3cbb77-7a56-4311-82eb-a5a9ac13b0b2" />
+The first attempt was to employ all scaling methods and then determine the accuracy score for each model. The results are the following:
+
+<img width="530" alt="image" src="https://github.com/user-attachments/assets/d022b6e9-623b-44dd-a0a3-39ffe4ad72a6" />
+
 
 
 
@@ -44,23 +47,23 @@ What followed was the assessment of the peformance of the same models by removin
 
 1) No votes by gender:
 
-                LogisticRegression      SVC        KNN      DecisionTree    NaiveByes    RandomForest
-MinMax                27.78            22.22      27.78        38.88          22.22         11.11
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/e84f0b83-a398-451f-b13c-29f194368c35" />
+
 
 Reuslts: The overall scores are wose than the original ones. It is recommended to keep the feature.
 
 
 2) No votes by ethnic background:
 
-                LogisticRegression      SVC        KNN      DecisionTree    NaiveByes    RandomForest
-MinMax                27.78            27.78      22.22        55.56          16.16         38.89
+<img width="517" alt="image" src="https://github.com/user-attachments/assets/c3c07486-8b18-46b9-8f53-d0370457799e" />
+
 
 Results: SVC, Decision Tree and Random Forest performed decisively better, especially Decision Tree. Only KNN and Random Forest had a decline in performance. It is recommended to remove the features.
-
+SS
 3) No urban population:
 
-                LogisticRegression      SVC        KNN      DecisionTree    NaiveByes    RandomForest
-MinMax                27.78            22.22      27.78        44.44          22.22         27.78
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/1cdc9c50-0fbb-403e-9ec0-985cf021ca06" />
+
 
 Results: Most models performed consderably wworse. It is recommended to keep the feature.
 
