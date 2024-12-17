@@ -13,7 +13,7 @@ The dataset first goes through a scaling process in order to adjust large intege
 As the size of the dataset is relatively small (18,16), the splitting method used was Leave-One-Out Cross-Validation (LOOCV).
 When choosing a binary classification model for our dataset, careful consideration is required because the dataset is small. Small datasets are prone to overfitting, and model performance may vary significantly. The models include: Logistic Regression, Support Vector Machines (VC), K Neighbours Classifier, Decision Tree Classifier, Naive Bayes and Random Forest classifier.
 
-*Features and Trget**
+**Features and Target**
 
 
 The dataset contains the following features:
@@ -70,6 +70,8 @@ Reuslts: The overall scores are wose than the original ones. It is recommended t
 
 Results: SVC, Decision Tree and Random Forest performed decisively better, especially Decision Tree. Only KNN and Random Forest had a decline in performance. It is recommended to remove the features.
 SS
+
+
 3) No urban population:
 
 <img width="518" alt="image" src="https://github.com/user-attachments/assets/1cdc9c50-0fbb-403e-9ec0-985cf021ca06" />
