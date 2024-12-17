@@ -34,12 +34,8 @@ election_winner: party winning the election (the target value)
 
 **Findings**
 
-The first attempt was to employ all scaling methods and then determine the accuracy score for each model. The results are the following:
+<img width="692" alt="image" src="https://github.com/user-attachments/assets/5a3cbb77-7a56-4311-82eb-a5a9ac13b0b2" />
 
-                LogisticRegression      SVC        KNN      DecisionTree    NaiveByes    RandomForest
-MinMax                27.78            22.22      27.78        44.44          22.22         33.33
-Standard              27.78            22.22      16.67        38.89          22.22         27.78
-Robust                22.22            22.22      16.67        44.44          22.22         27.78
 
 
 Due to its relative superior performance, only MinMax had been adopted throughout the rest of the analysis.
